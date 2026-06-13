@@ -217,7 +217,7 @@ if st.button("🔍 암 종류 예측"):
         f"""
         <div class="result-box">
             🏆 예측 결과 : {prediction_ko}<br>
-            신뢰도 : {max_prob:.2f}%
+            발병률 : {max_prob:.2f}%
         </div>
         """,
         unsafe_allow_html=True
